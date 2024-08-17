@@ -125,7 +125,7 @@ document.getElementById("btntinhTien").onclick = function () {
   let loaiXe = loaiXeGrabCar.value;
   let tienkmDauTien = giaKmDauTien(loaiXe);
   let tienKmTu1Den19 = giaKmTu1Den19(loaiXe);
-  let tienKmTu19TroLen = giaKm19TroLen(loaiXe);
+  let tienKmTu19TroLen = giaKmTu19TroLen(loaiXe);
   let tienThoiGianCho = giaThoiGianCho(loaiXe);
 
   let tongTien = 0;
